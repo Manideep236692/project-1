@@ -1,0 +1,80 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+body {
+  background-color: #f4f4f4;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.container {
+  background: white;
+  border-radius: 12px;
+  width: 350px;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+  overflow: hidden;
+}
+
+header {
+  background-color: #1f3b64;
+  color: white;
+  padding: 16px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-weight: bold;
+}
+
+.icons span {
+  margin-left: 10px;
+  font-size: 1.2rem;
+  cursor: text;
+}
+
+main {
+  padding: 20px;
+  text-align: center;
+}
+
+.temp-icon {
+  font-size: 64px;
+  color: #1f3b64;
+  margin-bottom: 10px;
+}
+
+.temperature {
+  font-size: 32px;
+  font-weight: bold;
+  margin: 10px 0;
+  color: #1f3b64;
+}
+
+.message {
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 12px;
+}
+
+.grid-item {
+  background: #f9f9f9;
+  border-radius: 12px;
+  padding: 20px;
+  font-size: 36px;
+  color: #1f3b64;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.05);
+  text-decoration: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
